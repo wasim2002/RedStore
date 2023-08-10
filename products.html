@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+
+<body>
+    <div class="container-product">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/redstore-black.png" alt="logo" width="120px">
+            </div>
+            <nav class="nav-list">
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="./img/cart-logo.png" width="28px" height="23px"></a>
+            <img class="menu-icon" src="./img/menu-png.png" onclick="menutoggle()">
+        </div>
+    </div>
+    
+    
+    <div class="featured-product">
+        <div class="row row-AP">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by price</option>
+                <option>Short by sale</option>
+                <option>Short by rating</option>
+            </select>
+        </div>
+        
+        
+        
+        <div class="row">
+            <div class="col-4">
+                <a href="office-wear-shirt.html"><img src="./img/office-shirt-1.webp" alt="product"></a>
+                <a href="office-wear-shirt.html"><h4>Office wear Shirt </h4></a>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detail.html"> <img src="./img/t-shirt 1-1.webp" alt="product"></a>
+                <a href="product-detail.html"> <h4>light grey slim t-shirt </h4></a>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/product 5.webp" alt="product">
+                <h4>White stylish trackpant for men</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/product 7.jpg" alt="product" class="product-last-img">
+                <h4>Nike running shoes for men</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/product 2.webp" alt="product">
+                <h4>Yellow t-Shirt for men </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/product 4.webp" alt="product">
+                <h4>Green Shirt with small print for men </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/product 6.webp" alt="product">
+                <h4>White stylish fit trackpant for sport</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/product 8.webp" alt="product" class="product-last-img">
+                <h4>US Polo white running shoes for men</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/product 9.webp" alt="product">
+                <h4>crossbeat smartwatch </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            
+            <div class="col-4">
+                <img src="./img/product 10.webp" alt="product">
+                <h4>Fossil round smart watch with google asst </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/product 11.webp" alt="product">
+                <h4>Puma black cap</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/product 12.jpg" alt="product" class="product-last-img">
+                <h4>Adidas 3 pair socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p> $50.00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+        
+    </div>
+    <!-- ----------- footer ------------ -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android Or ios Mobile Phones</p>
+                    <div class="app-store-logo ">
+                        <img src="./img/store.png" alt="google store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/restore-white.png" alt="logo">
+                    <p>Our Purpose Is To Sustainably Makes the Pleasure and Benefits of Sport Accessible to the Many
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Offers</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Term & Conditions</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us On</h3>
+                    <ul>
+                        <li class="youtube">YouTube</li>
+                        <li class="facebook">Facebook</li>
+                        <li class="instagram">Instagram</li>
+                        <li class="twitter">Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &#169; Copyright-2022 RedStore IND | inc. All Right Reserved &#174;</p>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-MSP">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/redstore-black.png" alt="logo" width="120px">
+            </div>
+            <nav class="nav-list">
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="./img/cart-logo.png" width="28px" height="23px"></a>
+            <!-- <img class="menu-icon" src="../img/menu-png.png" onclick="menutoggle()" > -->
+            <img class="menu-icon" src="./img/menu-png.png" onclick="menutoggle()">
+        </div>
+
+    </div>
+    <!------------------- account-page ------------------>
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./img/account-img.png" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()" >Login</span>
+                            <span onclick="register()" >Register</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot Password</a>
+                        </form>
+                        <form id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="email">
+                            <input type="number" placeholder="phone no.">
+                            <input type="text" placeholder="Password">
+                            <input type="text" placeholder="Confirm Password">
+                            <button type="submit" class="btn">Register</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------- footer ------------------->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android Or ios Mobile Phones</p>
+                    <div class="app-store-logo ">
+                        <img src="./img/store.png" alt="google store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/restore-white.png" alt="logo">
+                    <p>Our Purpose Is To Sustainably Makes the Pleasure and Benefits of Sport Accessible to the Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Offers</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Term & Conditions</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us On</h3>
+                    <ul>
+                        <li class="youtube">YouTube</li>
+                        <li class="facebook">Facebook</li>
+                        <li class="instagram">Instagram</li>
+                        <li class="twitter">Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &#169; Copyright-2022 RedStore IND | inc. All Right Reserved &#174;</p>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

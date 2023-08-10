@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedStore</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container-MSP">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./img/redstore-black.png" alt="logo" width="120px">
+            </div>
+            <nav class="nav-list">
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="./img/cart-logo.png" width="28px" height="23px">
+            <!-- <img class="menu-icon" src="../img/menu-png.png" onclick="menutoggle()" > -->
+            <img class="menu-icon" src="./img/menu-png.png" onclick="menutoggle()">
+        </div>
+
+    </div>
+
+    <!-------------- product cart details --------------->
+    <div class="cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./img/t-shirt 1-1.webp">
+                        <div>
+                            <p>light grey slim fit T-shirt - HRX</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./img/product 7.jpg" >
+                        <div>
+                            <p>Nike running shoes for men</p>
+                            <small>Price: $75.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$75.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./img/product 5.webp">
+                        <div>
+                            <p>White stylish trackpant for men</p>
+                            <small>Price: $60.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$185.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping Charge</td>
+                    <td>$0.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$188.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App For Android Or ios Mobile Phones</p>
+                    <div class="app-store-logo ">
+                        <img src="./img/store.png" alt="google store">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/restore-white.png" alt="logo">
+                    <p>Our Purpose Is To Sustainably Makes the Pleasure and Benefits of Sport Accessible to the Many</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Offers</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Term & Conditions</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us On</h3>
+                    <ul>
+                        <li class="youtube">YouTube</li>
+                        <li class="facebook">Facebook</li>
+                        <li class="instagram">Instagram</li>
+                        <li class="twitter">Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &#169; Copyright-2022 RedStore IND | inc. All Right Reserved &#174;</p>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
